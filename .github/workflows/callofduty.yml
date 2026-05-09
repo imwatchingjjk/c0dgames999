@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Call of Duty + 2K Games</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <div class="hero__content">
+      <h1>Call of Duty + 2K Games</h1>
+      <p>Browse the complete list of Call of Duty releases and popular 2K titles in one place.</p>
+      <div class="filters">
+        <input id="searchInput" type="text" placeholder="Search games..." />
+        <select id="platformFilter">
+          <option value="all">All Categories</option>
+          <option value="cod">Call of Duty</option>
+          <option value="2k">2K Games</option>
+        </select>
+      </div>
+    </div>
+  </header>
+
+  <main class="main-content">
+    <section>
+      <h2>Game Library</h2>
+      <div id="gameGrid" class="grid"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Designed for fans of Call of Duty and 2K games.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
